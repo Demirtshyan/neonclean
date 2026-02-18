@@ -71,7 +71,7 @@ function App() {
       <div className="max-w-6xl mx-auto">
         <header className="text-center mb-2">
           <h1 className="text-3xl sm:text-4xl font-bold mb-2">
-            Background Remover
+            Background Remover by BG
           </h1>
           <p className="text-gray-400 max-w-xl mx-auto text-sm sm:text-base">
             Վերբեռնեք պատկեր և անմիջապես հեռացրեք ֆոնը — առանց սերվերի, առանց API բանալիի, ամբողջությամբ ձեր բրաուզերում։
@@ -143,7 +143,6 @@ function App() {
         )}
         <footer className="mt-4 text-center text-gray-500 text-sm">
           Ստեղծված է React և Tailwind CSS տեխնոլոգիաներով — աշխատում է 100%-ով բրաուզերում 
-          by Baghramyan
         </footer>
       </div>
     </main>
