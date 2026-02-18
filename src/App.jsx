@@ -74,8 +74,7 @@ function App() {
             Background Remover
           </h1>
           <p className="text-gray-400 max-w-xl mx-auto text-sm sm:text-base">
-            Upload an image and remove the background instantly — no server, no
-            API key, fully in your browser.
+            Վերբեռնեք պատկեր և անմիջապես հեռացրեք ֆոնը — առանց սերվերի, առանց API բանալիի, ամբողջությամբ ձեր բրաուզերում։
           </p>
         </header>
         <section
