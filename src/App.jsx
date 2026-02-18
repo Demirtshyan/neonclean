@@ -86,13 +86,13 @@ function App() {
           }`}
         >
           <p className="text-lg font-semibold mb-2">
-            Drag & drop your image here
+            Քաշեք և գցեք ձեր պատկերը այստեղ
           </p>
           <p className="text-sm text-gray-400 mb-2">
-            or select an image from your device
+            կամ ընտրեք պատկեր ձեր սարքից
           </p>
           <label className="inline-flex items-center justify-center cursor-pointer bg-blue-600 hover:bg-blue-700 transition-colors px-6 py-2 rounded-xl font-semibold text-sm sm:text-base">
-            Select Image
+            Ընտրել պատկեր
             <input
               type="file"
               accept="image/*"
@@ -105,7 +105,7 @@ function App() {
         {isLoading && (
           <div className="text-center mt-4">
             <p className="text-lg font-medium animate-pulse">
-              Removing background...
+              Ֆոնը հեռացվում է...
             </p>
           </div>
         )}
@@ -135,14 +135,14 @@ function App() {
                   href={resultImage}
                   download="background-removed.png"
                 >
-                  Download PNG
+                  Ներբեռնել PNG
                 </a>
               </div>
             )}
           </section>
         )}
         <footer className="mt-4 text-center text-gray-500 text-sm">
-          Built with React & Tailwind CSS — runs 100% in the browser
+          Ստեղծված է React և Tailwind CSS տեխնոլոգիաներով — աշխատում է 100%-ով բրաուզերում
         </footer>
       </div>
     </main>
