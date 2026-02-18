@@ -74,7 +74,7 @@ function App() {
             Background Remover by BG
           </h1>
           <p className="text-gray-400 max-w-xl mx-auto text-sm sm:text-base">
-            Վերբեռնեք պատկեր և անմիջապես հեռացրեք ֆոնը — առանց սերվերի, առանց API բանալիի, ամբողջությամբ ձեր բրաուզերում։
+            Վերբեռնեք պատկեր և անմիջապես հեռացրեք ֆոնը — առանց սերվերի, ամբողջությամբ ձեր բրաուզերում։
           </p>
         </header>
         <section
