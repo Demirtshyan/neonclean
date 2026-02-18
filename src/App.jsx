@@ -114,7 +114,7 @@ function App() {
           <section className="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
             {originalImage && (
               <div className="rounded-2xl bg-white/5 border border-white/10 p-2 text-center">
-                <p className="mb-4 font-semibold">Original Image</p>
+                <p className="mb-4 font-semibold">Օրիգինալ</p>
                 <img
                   src={originalImage}
                   alt="Original"
@@ -124,7 +124,7 @@ function App() {
             )}
             {resultImage && (
               <div className="rounded-2xl bg-white/5 border border-white/10 p-2 text-center">
-                <p className="mb-4 font-semibold">Result Image</p>
+                <p className="mb-4 font-semibold">Ստացված նկար</p>
                 <img
                   src={resultImage}
                   alt="Result"
@@ -142,7 +142,8 @@ function App() {
           </section>
         )}
         <footer className="mt-4 text-center text-gray-500 text-sm">
-          Ստեղծված է React և Tailwind CSS տեխնոլոգիաներով — աշխատում է 100%-ով բրաուզերում
+          Ստեղծված է React և Tailwind CSS տեխնոլոգիաներով — աշխատում է 100%-ով բրաուզերում 
+          by Baghramyan
         </footer>
       </div>
     </main>
